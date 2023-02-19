@@ -1,15 +1,19 @@
-body {
+.container {
+    max-width: 1200px;
+    margin:auto
+}
+body { 
     background-color: #ce792c;
-    }
- p.white { 
-color:#ffffff 
- }
- p.white {
+}
+p.white { 
+    color:#ffffff;
     font-size: 20px;
  }
- .right{
-    background-image: url(skyline.jpg);
-    background-repeat: no repeat;
-    background-position: right top;
-    background-attachment: scroll;
- }
+
+.image-holder{
+    display: flex;
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
