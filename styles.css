@@ -12,8 +12,14 @@ p.white {
 
 .image-holder{
     display: flex;
+    margin-left: auto;
     float: right;
     width: 200px;
     height: 200px;
 }
-
+h1.border {
+    border-style: groove;
+    color:inherit;
+    border-color:purple;   
+    width:fit-content;
+}
