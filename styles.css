@@ -1,0 +1,15 @@
+body {
+    background-color: #ce792c;
+    }
+ p.white { 
+color:#ffffff 
+ }
+ p.white {
+    font-size: 20px;
+ }
+ .right{
+    background-image: url(skyline.jpg);
+    background-repeat: no repeat;
+    background-position: right top;
+    background-attachment: scroll;
+ }
