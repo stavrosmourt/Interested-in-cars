@@ -10,7 +10,6 @@ p.white {
     font-size: 23px;
     margin-bottom: 20px;
  }
-
 .image-holder{
     display: flex;
     margin-left: 10px;
@@ -106,4 +105,22 @@ img.nissanmspec {
     float: right;
     max-width: 380px;
     height: 240px; 
+}
+img.ztune {
+    display: list-item;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    max-width: 380px;
+    height: 240px;
+}
+img.ztune-r34 {
+    display: list-item;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    max-width: 400px;
+    height: 240px;
 }
