@@ -1,45 +1,48 @@
 .container {
     max-width: 1200px;
-    margin:auto
+    margin:auto;
 }
 body { 
-    background-color: #ce792c;
+    background-color: rgb(233, 134, 42);
 }
 p.white { 
     color:#ffffff;
-    font-size: 20px;
+    font-size: 23px;
+    margin-bottom: 20px;
  }
 
 .image-holder{
     display: flex;
-    margin-left: auto;
+    margin-left: 10px;
+    margin-bottom: 5px;
     float: right;
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    height: 198px;
 }
 h1.border {
-    border-style: groove;
+    border-left: groove;
+    background-color:rgb(146, 146, 146);
+    width: fit-content;
+    margin-top: 30px;
     color:inherit;
-    border-color:purple;   
-    width:fit-content;
-    border-radius: 12px;
-    padding; 5px;
+    border-color:hsl(0, 100%, 50%); /* red */
 }
 .image-holder2 {
     display: flex;
     margin-right: 10px;
     margin-bottom: 5px;
+    margin-top: 20px;
     float: left;
     max-width: 400px;
-    height: 250px;
+    height: 300px;
 }
 .image-holder3 {
     display: flex;
     margin-left: 10px;
     margin-bottom: 5px;
     float: right;
-    max-width:400px;
-    height: 200px;
+    max-width:500px;
+    height: 300px;
 }
 .rb26_dett {
     display: flex;
